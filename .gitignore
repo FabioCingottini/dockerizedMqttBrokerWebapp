@@ -1,5 +1,5 @@
 .idea/
-./broker/mosquitto.log
 ./webapp/node_modules/
 node_modules/*
 .env
+broker/log/mosquitto.log
