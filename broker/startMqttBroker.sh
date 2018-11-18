@@ -6,5 +6,6 @@ sudo docker run \
     --rm \
     -d \
     --name mqtt_docker_broker \
+    --network 526399fefd15 \
     -v $(pwd)/mosquitto.log:/mosquitto/log/mosquitto.log \
     mqtt_docker_broker:latest
