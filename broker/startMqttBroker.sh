@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 
 sudo docker run \
-    -p 1883:1883 \
     -it \
     --rm \
     -d \
